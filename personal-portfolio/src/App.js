@@ -19,6 +19,20 @@ import {
 function App() {
   return (
     <>
+       <div>
+    
+    {/* <Helmet>
+        <title>Amrit Bastakoti</title>
+        <meta name="description" content="Helmet application" />
+    </Helmet> */}
+ 
+    
+        <Helmet>
+            <title>Amrit Bastakoti</title>
+            <meta name="description" content="Amrit Bastakoti" />
+        </Helmet>
+   
+    </div>
     <Navbar />
       <Routes>
       <Route path="/home" element={<Home />}></Route>
