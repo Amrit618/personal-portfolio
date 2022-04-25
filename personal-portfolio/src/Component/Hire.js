@@ -89,7 +89,7 @@
 import React from 'react'
 import { useState } from 'react';
 
-const Contact = () => {
+const Hire = () => {
 const [data, setData] = useState({
   fullname: "",
   phone: "",
@@ -224,5 +224,5 @@ const InputEvent = (event) => {
   )
 }
 
-export default Contact
+export default Hire
 
