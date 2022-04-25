@@ -7,6 +7,7 @@ import About from "./Component/About";
 import Contact from "./Component/Contact";
 import Navbar from "./Component/Navbar";
 import Footer from './Component/Footer';
+import Hire from './Component/Hire';
 import {
   Routes,
   Route,
@@ -40,6 +41,7 @@ function App() {
       <Route path="/about" element={<About />}></Route>
       <Route path="/contact" element={<Contact />}></Route>
       <Route path="/" element={<Home />}></Route>
+      <Route path="/hire" element={<Hire />}></Route>
       {/* <Navigate replace to="/" /> */}
       
      </Routes>
